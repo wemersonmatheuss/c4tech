@@ -1,0 +1,76 @@
+main {
+   padding: 48px 80px;
+
+   & .presentation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        & .description {
+            width: 616px;
+
+
+            & .title {
+                display: flex;
+                flex-direction: column;
+                gap: 33px;
+            }
+
+            & .title h1 {
+                font-size: 64px;
+                font-weight: 700;
+                color: var(--color-secondary);
+            }
+
+            & .title h1 span {
+                color: var(--color-primary);
+            }
+
+            & .title p {
+                font-size: 20px;
+                font-weight: 600;
+                color: var(--color-secondary);
+            }
+
+            & .action {
+                display: flex;
+                gap: 30px;
+                margin-top: 15px;
+            }
+
+            & .action button:nth-child(1) {
+                background-color: var(--color-primary);
+                color: var(--color-white); 
+                padding: 15px 21px;
+                border-radius: 40px;
+                border: none;
+                font-size: 18px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+
+            & .action button:nth-child(2) {
+                color: var(--color-primary); 
+                padding: 15px 21px;
+                border-radius: 40px;
+                border: 1px solid var(--color-primary);
+                font-size: 18px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+
+            & .action button:nth-child(1):hover {
+               background-color: var(--color-background-page);
+               color: var(--color-primary);
+               border: 1px solid var(--color-primary);
+               transition: 0.4s ease-in-out;
+            }
+
+            & .action button:nth-child(2):hover {
+               background-color: var(--color-primary);
+               color: var(--color-white);
+               transition: 0.4s ease-in-out;
+            }
+        }
+    }
+}
