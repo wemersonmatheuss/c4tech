@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    /* CORES */
+    --color-primary: #5B3A8A;
+    --color-secondary: #383535;
+    --color-background-page: #F2F3F3;
+    --color-background-button-div: #FAFAFA;
+    --color-menu: #FFFFFF;
+    --color-circle: #EDEDED;
+
+}
