@@ -4,6 +4,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     background-color: var(--color-white);
+    position: fixed;
+    width: 100vw;
 
     & .logo-nav {
         display: flex;
