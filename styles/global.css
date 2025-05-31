@@ -13,11 +13,12 @@
     --color-background-button-div: #FAFAFA;
     --color-white: #FFFFFF;
     --color-circle: #EDEDED;
+    --color-text-gray: #666666;
 
 }
 
 
-.main-container {
+body {
     background-color: var(--color-background-page);
     height: 100vh;
     width: 100vw;

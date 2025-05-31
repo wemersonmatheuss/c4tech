@@ -1,10 +1,11 @@
 main {
-   padding: 48px 80px;
+   padding: 48px 80px 0px;
 
    & .presentation {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding-bottom: 48px;
 
         & .description {
             width: 616px;
@@ -70,6 +71,49 @@ main {
                background-color: var(--color-primary);
                color: var(--color-white);
                transition: 0.4s ease-in-out;
+            }
+        }
+    }
+
+    & .infos-main {
+        padding-inline: 81px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 90px;
+
+        & .info {
+            display: flex;
+            align-items: center;
+            padding: 33px;
+            background-color: var(--color-background-button-div);
+            border-radius: 10px;
+            gap: 30px;
+            width: 366px;
+
+
+            & .image {
+                background-color: var(--color-circle);
+                padding: 13px;
+                border-radius: 50%;
+                
+            }
+
+            & .description-info-main {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                & h3 {
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+
+                & p {
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: var(--color-text-gray);
+                }
             }
         }
     }
