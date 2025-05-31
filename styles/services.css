@@ -1,0 +1,93 @@
+.services {
+    padding: 60px 125px;
+
+    & .title-services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        & .detail-service {
+
+            & p {
+                font-size: 16px;
+                font-weight: 500;
+                color: var(--color-primary);
+            }
+
+            & .trace-service {
+                background-color: var(--color-primary);
+                height: 1px;
+                width: 50%;
+                margin: 0 auto;
+            }
+        }
+
+        & h2 {
+            margin-top: 15px;
+            font-size: 36px;
+            font-weight: 400;
+        }
+
+        & p {
+            margin-top: 15px;
+            font-size: 16px;
+            font-weight: 400;
+            color: var(--color-text-gray);
+            text-align: center;
+            max-width: 606px;
+        }
+    }
+
+    & .all-services {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 55px;
+        justify-content: space-between;
+        gap: 46px;
+
+        & .service {
+            background-color: var(--color-white);
+            width: 366px;
+            padding: 30px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & .image {
+                background-color: var(--color-circle);
+                padding: 13px;
+                border-radius: 50%;
+            }
+
+            & .description-services {
+                margin-top: 23px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                align-items: center;
+                text-align: center;
+
+                & h3 {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+
+                & p {
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: var(--color-text-gray);
+                }
+
+                & a {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    text-decoration: none;
+                    color: var(--color-primary);
+                }
+            }
+        }
+    }
+}
