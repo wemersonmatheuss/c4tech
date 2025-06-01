@@ -1,52 +1,41 @@
-.services {
+.differentials {
     padding: 60px 125px;
 
-    & .title-services {
+    & .title-differential {
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
+        align-items: center;
 
-        & .detail-service {
-
-            & p {
-                font-size: 18px;
-                font-weight: 500;
-                color: var(--color-primary);
-            }
-
-            & .trace-service {
-                background-color: var(--color-primary);
-                height: 1px;
-                width: 50%;
-                margin: 0 auto;
-            }
+        & .detail-differential {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
-        & h2 {
-            margin-top: 15px;
-            font-size: 36px;
-            font-weight: 400;
-        }
-
-        & p {
-            margin-top: 15px;
+        & .detail-differential p {
             font-size: 18px;
-            font-weight: 400;
-            color: var(--color-text-gray);
-            text-align: center;
-            max-width: 606px;
+            font-weight: 500;
+            color: var(--color-primary);
+        }
+        
+        & .detail-differential .trace-differential {
+            background-color: var(--color-primary);
+            height: 1px;
+            width: 50%;
+            
         }
     }
 
-    & .all-services {
+    & .all-differential {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 55px;
         justify-content: space-between;
         gap: 46px;
+        margin-top: 55px;
 
-        & .service {
+
+        & .differential {
             background-color: var(--color-white);
             width: 366px;
             padding: 30px;
@@ -62,11 +51,11 @@
             }
 
             & .image img {
-                    width: 45px;
-                    height: 45px;
+                width: 45px;
+                height: 45px;
             }
 
-            & .description-services {
+            & .description-differential {
                 margin-top: 23px;
                 display: flex;
                 flex-direction: column;
@@ -78,8 +67,6 @@
                     font-size: 20px;
                     font-weight: 600;
                 }
-
-                
 
                 & p {
                     font-size: 15px;
