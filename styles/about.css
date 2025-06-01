@@ -4,6 +4,11 @@
     justify-content: space-between;
     align-items: center;
 
+    & .image-about img {
+        width: 600px;
+        height: auto;
+    }
+
     & .description-about {
         max-width: 585px;
 
