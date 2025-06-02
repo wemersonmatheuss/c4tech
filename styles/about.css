@@ -72,3 +72,51 @@
         }
     }
 }
+
+@media screen and (max-width: 480px) {
+    .about {
+        padding: 20px 0px;
+        flex-direction: column;
+
+        & .image-about img {
+            width: 350px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        & .description-about {
+            width: 100%;
+
+            & .title {
+                align-items: center;
+                margin-top: 20px;
+                gap: 14px;
+
+                & .detail {
+                    & .trace {
+                        width: 50%;
+                    }
+                }
+
+                & h2 {
+                    font-size: 25px;
+                }
+            }
+
+            & .text-about {
+                margin-top: 25px;
+
+                & p {
+                    font-size: 16px;
+                }
+
+                & .button-about button {
+                    padding: 15px;
+                    border-radius: 40px;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
