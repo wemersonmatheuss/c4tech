@@ -1,0 +1,102 @@
+footer {
+    padding: 52px 125px;
+    background-color: #2A1A4A;
+    display: flex;
+    justify-content: space-between;
+
+    & .social-links {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        & .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            & img {
+                width: 62px;
+                height: 62px;
+            }
+
+            & p {
+                font-size: 40px;
+                font-weight: bold;
+                color: var(--color-white);
+
+                & span {
+                    color: #710DFF;
+                }
+            }
+        }
+
+        & .paragraph {
+            font-size: 15px;
+            font-weight: 500;
+            color: #E7E7E7;
+        }
+
+        & .social {
+            display: flex;
+            gap: 16px;
+            
+            & a {
+                background-color: #6B6B6B;
+                padding: 6px;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    & .links-speed, .services-speed, .promotion {
+        display: flex;
+        flex-direction: column;
+        gap: 43px;
+
+        & .title p {
+                font-size: 18px;
+                font-weight: 500;
+                color: var(--color-white);
+        }
+
+        & .links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+
+            & a {
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: 500;
+                color: #E7E7E7;
+            }
+        }
+    }
+
+    .promotion {
+        & .email {
+            display: flex;
+            gap: 0px;
+
+            & input {
+                border: none;
+                border-radius: 8px;
+                outline: none;
+                padding: 12px;
+                width: 200px;
+                height: 37px;
+            }
+
+            & button {
+                padding: 9px 33px;
+                border: none;
+                border-radius: 8px;
+                background-color: var(--color-primary);
+                color: var(--color-white);
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+}
