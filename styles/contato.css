@@ -201,6 +201,10 @@
                 max-width: 300px;
                 padding: 10px;
 
+                & input {
+                    height: 40px;
+                }
+
                 & .email-tel {
                     flex-direction: column;
                 }
