@@ -44,6 +44,7 @@ footer {
                 background-color: #6B6B6B;
                 padding: 6px;
                 border-radius: 50%;
+                cursor: pointer;
             }
         }
     }
