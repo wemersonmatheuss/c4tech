@@ -197,12 +197,24 @@
                 }
             }
 
+            & .form {
+                width: 100%;
+            }
+
             & .form form {
-                max-width: 300px;
+                width: 100%;
                 padding: 10px;
 
                 & input, select {
                     height: 40px;
+                }
+
+                & label {
+                    font-size: 18px;
+                }
+
+                & input::placeholder {
+                    font-size: 16px;
                 }
 
                 & .email-tel {
