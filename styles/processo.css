@@ -114,5 +114,27 @@
     }
 }
 
+@media screen and (max-width: 480px) {
+    .processo {
+        padding: 20px 0;
+    }
+
+    & .text-center {
+        gap: 9px;
+
+        & h2 {
+            font-size: 25px !important; 
+        }
+    }
+
+    & .timeline-content {
+        padding: 10px !important;
+
+        & h3 {
+            font-size: 18px !important;
+        }
+    }
+}
+
 
 
