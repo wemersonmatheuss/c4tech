@@ -201,7 +201,7 @@
                 max-width: 300px;
                 padding: 10px;
 
-                & input {
+                & input, select {
                     height: 40px;
                 }
 
