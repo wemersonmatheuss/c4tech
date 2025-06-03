@@ -96,6 +96,10 @@
                     & .trace {
                         width: 50%;
                     }
+
+                    & p {
+                        font-size: 18px;
+                    }
                 }
 
                 & h2 {
@@ -104,10 +108,10 @@
             }
 
             & .text-about {
-                margin-top: 25px;
+                margin-top: 30px;
 
                 & p {
-                    font-size: 16px;
+                    font-size: 18px;
                 }
 
                 & .button-about button {
