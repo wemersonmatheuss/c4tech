@@ -164,3 +164,49 @@
         }
     }
 }
+
+@media screen and (max-width: 480px) {
+    .contact {
+        padding: 20px 0;
+
+        & .title-contact {
+            & h2 {
+                font-size: 25px;
+            }
+
+            & p {
+                font-size: 16px;
+                text-align: center;
+            }
+        }
+
+        & .methods-contact {
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+
+            & .infos {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+
+                & .info {
+                    width: 100%;
+                    max-width: 300px;
+                }
+            }
+
+            & .form form {
+                width: 100%;
+                max-width: 300px;
+
+                & .email-tel {
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+
+    
+}
